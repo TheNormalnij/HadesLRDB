@@ -1,0 +1,3 @@
+[submodule "lrdb"]
+	path = libs/lrdb
+	url = git@github.com:TheNormalnij/LRDB.git

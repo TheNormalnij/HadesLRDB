@@ -1,0 +1,5 @@
+{
+	Name = "LRDB Debugger"
+	Library = "HadesLRDB.dll"
+	Author = "satoren, Uladzislau 'TheNormalnij' Nikalayevich"
+}
