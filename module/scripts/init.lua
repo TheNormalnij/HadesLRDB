@@ -4,3 +4,13 @@
 --
 
 debug.lrdbHandler = debug.lrdb.activate(21110, false)
+
+local function enableDebugConf()
+    -- /DebugDraw=true /DebugKeysEnabled=true
+    SetConfigOption { Name = "DebugDraw", Value = true }
+    SetConfigOption { Name = "DebugKeysEnabled", Value = true }
+end
+
+enableDebugConf()
+
+OnAnyLoad { enableDebugConf }
