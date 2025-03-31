@@ -1,5 +1,6 @@
 {
 	Name = "LRDB Debugger"
 	Library = "HadesLRDB.dll"
+	Priority = 100000
 	Author = "satoren, Uladzislau 'TheNormalnij' Nikalayevich"
 }
