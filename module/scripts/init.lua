@@ -13,4 +13,4 @@ end
 
 enableDebugConf()
 
-OnAnyLoad { enableDebugConf }
+OnPreThingCreation { enableDebugConf }
